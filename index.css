@@ -11,7 +11,6 @@
   text-align: center;
 }
 .form_content {
-  text-align: center;
 }
 .form_content_btn {
   display: inline-block;
@@ -33,4 +32,9 @@
   -ms-user-select: none;
   font-size: 14px;
   border-radius: 20px;
+}
+
+.single_line {
+  width: 100vw;
+  margin-top: 12px;
 }
