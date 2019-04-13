@@ -1,0 +1,36 @@
+.container {
+  margin: 0;
+  font: 100%/1.5 sans-serif;
+}
+.top,
+.form_content {
+  padding: 1em calc(50% - 350px);
+}
+
+.top_title {
+  text-align: center;
+}
+.form_content {
+  text-align: center;
+}
+.form_content_btn {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #67c23a;
+  border: 1px solid #67c23a;
+  color: #fff;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: 0.1s;
+  font-weight: 500;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-size: 14px;
+  border-radius: 20px;
+}
