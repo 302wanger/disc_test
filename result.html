@@ -14,22 +14,35 @@
       .container {
         margin: 0;
       }
-      .title,
+      .top,
       .result,
       .desc {
         padding: 1em calc(50% - 350px);
       }
+      .title {
+        text-align: center;
+      }
 
       a:link {
         text-decoration: none;
+      }
+
+      p {
+        font-family: -apple-system, SF UI Text, Arial, PingFang SC,
+          Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+        color: #2f2f2f;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27.2px;
+        word-break: break-word;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <div class="title">
-        <h1>DISC 免费性格测试(完整版)</h1>
+      <div class="top">
+        <h1 class="title">DISC 免费性格测试(完整版)</h1>
         <p>
           20世纪20年代，美国心理学家威廉·莫尔顿·马斯顿创建了一个理论来解释人的情绪反应，
           在此之前，这种工作主要局限在对于精神病患者或精神失常人群的研究，而马斯顿博士则希望扩大这个研究范围，
@@ -41,10 +54,10 @@
       </div>
 
       <div class="result">
-        <h2>
+        <h3>
           测试结果的使用说明：计算你的各项得分，超过10分称为显性因子，可以作为性格测评的判断依据。低于10分称为隐性因子，对性格测评没有实际指导意义，可以忽略。如果有两项及以上得分超过10,说明你同时具备那两项特征。
-        </h2>
-        <h1>
+        </h3>
+        <h2>
           <table class="table">
             <tbody>
               <tr>
@@ -63,13 +76,9 @@
                 <th><a href="#CC">C</a>:</th>
                 <td id="C-val"></td>
               </tr>
-              <tr>
-                <th></th>
-                <td></td>
-              </tr>
             </tbody>
           </table>
-        </h1>
+        </h2>
       </div>
       <div class="desc">
         <h3 id="DD">Dominance－支配型/控制者</h3>
